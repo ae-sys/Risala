@@ -1,0 +1,11 @@
+# Direnv's environment cache directory
+/.direnv/
+
+# Nix symlink'd directory for derivation outputs
+result
+
+# Zig's build cache directory
+/risala/.zig-cache/
+
+# Zig's build output directory
+/risala/zig-out/
