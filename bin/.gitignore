@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+
+!darwin/
+!darwin/**/*.swift
+
+!Risala.xcodeproj/
+!Risala.xcodeproj/**

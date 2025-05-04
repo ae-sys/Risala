@@ -1,11 +1,14 @@
-# Direnv's environment cache directory
-/.direnv/
+*
 
-# Nix symlink'd directory for derivation outputs
-result
+!.gitignore
 
-# Zig's build cache directory
-/risala/.zig-cache/
+!*.md
 
-# Zig's build output directory
-/risala/zig-out/
+!*.nix
+!flake.lock
+!nix/
+
+!doc/
+!lib/
+!bin/
+!rc/
